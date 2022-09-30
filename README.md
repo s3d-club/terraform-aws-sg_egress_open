@@ -1,5 +1,20 @@
----
-sidebar_position: 1
----
 # TF AWS Egress Open
-Terraform module for AWS egrees.
+Terraform module for AWS egress.
+
+## Other Documents
+Please read our [LICENSE][lice], [CONTRIBUTING][cont], [CODE-OF-CONDUCT][code],
+and [CHANGES][chge] documents before working in this project and anytime they
+are update.
+
+## Overview
+This module is an opinionated wrapper around a [aws security group][awss].
+
+We enforce the following:
+- Our conventions for name, description,, and tagging
+- Reduced arguments and attributes
+
+[chge]: ./CHANGES.md
+[code]: ./CODE-OF-CONDUCT.md
+[cont]: ./CONTRIBUTING.md
+[lice]: ./LICENSE.md
+[awss]: https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group
