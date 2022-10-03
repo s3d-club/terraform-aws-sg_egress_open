@@ -1,14 +1,13 @@
 module "name" {
-  source = "git::https://github.com/s3d-club/terraform-external-data-name-tags?ref=v0.1.0"
+  source = "github.com/s3d-club/terraform-external-name?ref=v0.1.1"
 
-  path         = path.module
-  name_prefix  = var.name_prefix
-  name_segment = "egress-open"
-  tags         = var.tags
+  path    = path.module
+  context = join("-", [var.name_prefix, "egress-open"])
+  tags    = var.tags
 }
 
 resource "aws_security_group" "this" {
-  name_prefix = module.name.name_prefix
+  name_prefix = module.name.prefix
   description = "Egress OPEN for all protocols"
   tags        = module.name.tags
   vpc_id      = var.vpc
