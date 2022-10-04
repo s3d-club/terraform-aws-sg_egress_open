@@ -7,3 +7,6 @@ Recently completed and planned work is tracked here.
 ## [0.1.1](.)
 - Removed obsolete `s3d-post-flow`
 - Updated `name` module
+
+## [0.1.2](.)
+- Updated `name` module for better error handling
