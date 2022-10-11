@@ -1,5 +1,5 @@
-# TF AWS Egress Open
-Terraform module for AWS egress.
+# AWS Open Egress
+Terraform module for open AWS Egress.
 
 ## Other Documents
 Please read our [LICENSE][lice], [CONTRIBUTING][cont], [CODE-OF-CONDUCT][code],
@@ -10,7 +10,7 @@ are update.
 This module is an opinionated wrapper around a [aws security group][awss].
 
 We enforce the following:
-- Our conventions for name, description,, and tagging
+- Our conventions for name, description, and tagging
 - Reduced arguments and attributes
 
 [chge]: ./CHANGES.md
