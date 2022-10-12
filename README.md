@@ -4,10 +4,11 @@ Terraform module for open AWS Egress.
 ## Other Documents
 Please read our [LICENSE][lice], [CONTRIBUTING][cont], [CODE-OF-CONDUCT][code],
 and [CHANGES][chge] documents before working in this project and anytime they
-are update.
+are updated.
 
 ## Overview
-This module is an opinionated wrapper around a [aws security group][awss].
+This module is an opinionated wrapper around an [aws security group][awss]
+resource.
 
 We enforce the following:
 - Our conventions for name, description, and tagging
