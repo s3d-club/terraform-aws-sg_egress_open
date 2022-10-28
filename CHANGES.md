@@ -6,3 +6,6 @@ Recently completed and planned work is tracked here.
 
 ## [0.1.9](.)
 - Added `terraform.tf`
+
+## [0.1.10](.)
+- Updated `aws` provider
