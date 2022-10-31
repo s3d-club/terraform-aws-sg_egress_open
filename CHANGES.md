@@ -14,3 +14,6 @@ Recently completed and planned work is tracked here.
 
 ## [0.1.13](.) to [0.1.14](.)
 - Improved descriptions of variables and outputs
+
+## [0.1.15](.)
+- Changed to use `-x` as suffix for pre-release versions
