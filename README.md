@@ -1,10 +1,9 @@
 # AWS Open Egress
 Terraform module for open AWS Egress.
 
-## Other Documents
-Please read our [LICENSE][lice], [CONTRIBUTING][cont], [CODE-OF-CONDUCT][code],
-and [CHANGES][chge] documents before working in this project and anytime they
-are updated.
+## Associated Documents
+Please read our [LICENSE][lice], [CONTRIBUTING][cont], and [CHANGES][chge]
+documents before working in this project and anytime they are updated.
 
 ## Overview
 This module is an opinionated wrapper around an [aws security group][awss]
@@ -15,7 +14,6 @@ We enforce the following:
 - Reduced arguments and attributes
 
 [chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
 [cont]: ./CONTRIBUTING.md
 [lice]: ./LICENSE.md
 [awss]: https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group
